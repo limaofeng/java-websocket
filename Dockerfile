@@ -4,6 +4,6 @@ ADD / /tmp/build/
 
 RUN cd /tmp/build && mvn clean compile -Dmaven.test.skip=true
 
-EXPOSE 8089
+EXPOSE 8090
 
 ENTRYPOINT cd /tmp/build && mvn test
